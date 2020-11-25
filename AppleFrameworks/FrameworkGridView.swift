@@ -1,13 +1,6 @@
-//
-//  ContentView.swift
-//  AppleFrameworks
-//
-//  Created by Dani Kilders on 25.11.20.
-//
-
 import SwiftUI
 
-struct ContentView: View {
+struct FrameworkGridView: View {
     var body: some View {
         Text("Hello, world!")
             .padding()
@@ -16,6 +9,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        FrameworkGridView()
     }
 }
