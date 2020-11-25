@@ -56,10 +56,10 @@
 			children = (
 				33829178256EBBE400E07192 /* AppleFrameworksApp.swift */,
 				3382917A256EBBE400E07192 /* FrameworkGridView.swift */,
+				33829189256EBCBC00E07192 /* Framework.swift */,
 				3382917C256EBBE600E07192 /* Assets.xcassets */,
 				33829181256EBBE600E07192 /* Info.plist */,
 				3382917E256EBBE600E07192 /* Preview Content */,
-				33829189256EBCBC00E07192 /* Framework.swift */,
 			);
 			path = AppleFrameworks;
 			sourceTree = "<group>";
