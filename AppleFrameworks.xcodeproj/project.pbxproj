@@ -14,6 +14,7 @@
 		3382918A256EBCBC00E07192 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33829189256EBCBC00E07192 /* Framework.swift */; };
 		339285592576574300ACAA02 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339285582576574300ACAA02 /* FrameworkDetailView.swift */; };
 		3392855C257659B100ACAA02 /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3392855B257659B100ACAA02 /* AFButton.swift */; };
+		3392855F25765FD000ACAA02 /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3392855E25765FD000ACAA02 /* FrameworkGridViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		33829189256EBCBC00E07192 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
 		339285582576574300ACAA02 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 		3392855B257659B100ACAA02 /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
+		3392855E25765FD000ACAA02 /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				33829181256EBBE600E07192 /* Info.plist */,
 				3382917E256EBBE600E07192 /* Preview Content */,
 				3392855B257659B100ACAA02 /* AFButton.swift */,
+				3392855E25765FD000ACAA02 /* FrameworkGridViewModel.swift */,
 			);
 			path = AppleFrameworks;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				3382918A256EBCBC00E07192 /* Framework.swift in Sources */,
 				3392855C257659B100ACAA02 /* AFButton.swift in Sources */,
 				33829179256EBBE400E07192 /* AppleFrameworksApp.swift in Sources */,
+				3392855F25765FD000ACAA02 /* FrameworkGridViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
