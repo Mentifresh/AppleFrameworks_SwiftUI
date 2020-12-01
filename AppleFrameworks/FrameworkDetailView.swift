@@ -4,6 +4,7 @@ struct FrameworkDetailView: View {
     
     var framework: Framework
     @Binding var isShowingDetailView: Bool
+    @State private var isShowingSafariView: Bool = false
     
     var body: some View {
         VStack {
@@ -33,10 +34,15 @@ struct FrameworkDetailView: View {
             Spacer()
             
             Button {
-                
+                isShowingSafariView = true
             } label: {
                 AFButton(title: "Learn more")            }
         }
+        .sheet(isPresented: $isShowingSafariView, content: {
+            if let url = URL(string: framework.urlString) {
+                SafariView(url: url)
+            }
+        })
     }
 }
 
